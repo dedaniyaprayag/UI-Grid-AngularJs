@@ -1,0 +1,59 @@
+.grid-align {
+	text-align: center;
+	line-height: 20px;
+}
+
+.checked {
+    background-image: url('../images/icons/tick.png')!important;
+    background-repeat: no-repeat;
+    width: auto;
+    background-position: center;
+}
+
+.unChecked {
+    background-image: url('../images/icons/cross.png')!important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gridSize {
+	width: 100%;
+	height: 100%;
+}
+
+.margin-top-20{
+	margin-top: 20px;
+}
+
+.margin-top-60{
+	margin-top: 60px;
+}
+
+.grid-text-overflow {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.tooltip-cutom {
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+.grid-tooltip {
+	overflow: visible;
+  	z-index: 9999999;
+  	float: left;
+}
+
+.form-row {
+    padding: 0% 0%;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.export-btn-margin-right {
+    margin-right: 10px;
+}
