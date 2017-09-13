@@ -13,19 +13,22 @@ app.controller("UIGridController",function(UIGridDataService){
 				field : "name",
 				displayName : "Name",
 				cellClass :"grid-align",
-				headerCellClass : "grid-align"
+				headerCellClass : "grid-align",
+    			cellTemplate : '<span><div class="grid-text-overflow" tooltip-class="tooltip-custom" uib-tooltip = "{{row.entity.name}}" tooltip-placement = "top" tooltip-append-to-body = "true"><div class = "ui-grid-cell-contents">{{COL_FIELD}}</div></div></span>'
 			},
 			{
 				field: "age",
 				displayName: "Age",
 				cellClass : "grid-align",
-				headerCellClass : "grid-align"
+				headerCellClass : "grid-align",
+				cellTemplate : '<span><div class="grid-text-overflow" tooltip-class="tooltip-custom" uib-tooltip = "{{row.entity.age}}" tooltip-placement = "top" tooltip-append-to-body = "true"><div class = "ui-grid-cell-contents">{{COL_FIELD}}</div></div></span>'
 			},
 			{
 				field : "location",
 				displayName : "Location",
 				cellClass : "grid-align",
-				headerCellClass : "grid-align"
+				headerCellClass : "grid-align",
+				cellTemplate : '<span><div class="grid-text-overflow" tooltip-class="tooltip-custom" uib-tooltip = "{{row.entity.location}}" tooltip-placement = "top" tooltip-append-to-body = "true"><div class = "ui-grid-cell-contents">{{COL_FIELD}}</div></div></span>'
 			},
 			{
 				field : "active",
